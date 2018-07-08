@@ -1,0 +1,26 @@
+.cards{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+.card__item{
+    float:left;
+    width:268px;
+    min-height:456px;
+    border:1px solid #dfdfdf;
+    position:relative;
+}
+.card__image{
+    height:192px;
+}
+.card__text{
+    padding:15px 37px 15px 28px;
+    min-height: 206px;
+}
+.card__button{
+    position:absolute;
+    bottom:29px;
+    width: 50px;
+    height: 30px;
+}
+  
