@@ -1,0 +1,38 @@
+.content{
+    min-height:300px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin-top:19px;
+}
+.item{
+    display:flex;
+    align-items: center;
+    min-height:129px;
+    width:570px;
+    padding-top:40px;
+}
+.item__circle{
+    width:124px;
+    height:124px;
+    border:3px solid #dfdfdf;
+    border-radius:50%;
+    position:relative;
+}
+.item__image{
+    position:absolute;
+    left:42px;
+    top:44px;
+}
+.item__text{
+    padding-left:24px;
+    padding-right:15px;
+    width:400px;
+}
+@media screen and (max-width: 767px)
+{
+    .item__text{
+        width:60%;
+    }
+}
+  

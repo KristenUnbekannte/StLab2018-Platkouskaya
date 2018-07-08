@@ -1,0 +1,16 @@
+.header{
+    background-image: url(../images/line.png);
+    background-repeat: no-repeat;
+    min-height:120px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    position: relative;
+}
+.header__menu{
+    margin-right:38px;
+}
+.header__logo{
+    margin-bottom:6px;
+} 
