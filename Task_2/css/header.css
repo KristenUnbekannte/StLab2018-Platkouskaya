@@ -9,7 +9,8 @@
     position: relative;
 }
 .header__menu{
-    margin-right:38px;
+    margin-right:36px;
+    margin-bottom:21px;
 }
 .header__logo{
     margin-bottom:6px;

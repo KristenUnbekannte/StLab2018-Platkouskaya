@@ -1,12 +1,20 @@
+.menu{
+    list-style:none;
+}
 .menu__item{
+    float:left;
+    margin-left:5px;
     font-family:"Fjalla One";
     text-transform: uppercase;
     font-size:14px;
     height:50px;
-    color:#a5a5a5;
-    padding:19px 22px 20px 18px;
 }
-.menu__item_active, .menu__item:hover{
+.menu__a{
+    display:block;
+    padding:19px 22px 20px 18px;
+    color:#a5a5a5;
+}
+.menu__a_active, .menu__a:hover{
     color:white;
     background-color: #e24f43;
     border-radius:3px;
