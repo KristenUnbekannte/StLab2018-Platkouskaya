@@ -9,8 +9,18 @@
     position: relative;
 }
 .header__menu{
-    margin-right:38px;
+    margin-right:36px;
+    margin-bottom:21px;
 }
 .header__logo{
     margin-bottom:6px;
 } 
+@media screen and (max-width: 767px)
+{
+    .header{
+        align-items: flex-start;
+    }
+    .header__logo{
+        margin-top: 10px;
+    }
+}
