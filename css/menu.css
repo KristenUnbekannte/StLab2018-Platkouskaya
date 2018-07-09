@@ -13,6 +13,7 @@
     display:block;
     padding:19px 22px 20px 18px;
     color:#a5a5a5;
+    text-decoration: none;
 }
 .menu__a_active, .menu__a:hover{
     color:white;

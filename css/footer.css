@@ -13,12 +13,21 @@
 .footer__item{
     width:268px;
 }
-.footer__image{
+.footer__image-content{
     display:flex;
     justify-content:flex-start;
 }
 .footer__text-content{
     line-height: 1.2;
+}
+.footer__a{
+    color:#a5a5a5;
+    text-decoration: none;
+}
+.footer__a:hover{
+    text-decoration-line: overline;
+    text-decoration-style: dashed;
+    text-decoration-color:  rgb(226, 79, 67);
 }
 @media screen and (min-width: 768px) and (max-width: 1024px)
 {
