@@ -31,8 +31,12 @@
 }
 @media screen and (max-width: 767px)
 {
+    .item{
+        display:flex;
+        flex-wrap: wrap;
+    }
     .item__text{
-        width:60%;
+        width:50%;
     }
 }
   

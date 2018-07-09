@@ -45,4 +45,7 @@ body{
     .page__footer-margin{
         margin-top:0;
     }
+    .text__title{
+        line-height: 1.5;
+    }
 }

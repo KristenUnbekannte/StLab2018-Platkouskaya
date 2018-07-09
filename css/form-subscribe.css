@@ -66,5 +66,11 @@
         margin-bottom: 20px;
     }
 }
+@media screen and (max-width: 411px)
+{
+    .form-subscribe__input{
+        width:200px;
+    }
+}
 
   

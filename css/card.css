@@ -5,13 +5,13 @@
 }
 .card__item{
     float:left;
-    width:268px;
+    max-width:268px;
     min-height:456px;
     border:1px solid #dfdfdf;
     position:relative;
 }
 .card__image{
-    height:192px;
+    min-height:192px;
 }
 .card__text{
     padding:15px 37px 15px 28px;
@@ -40,6 +40,7 @@
     }
     .card__item{
         margin-bottom:20px;
+        margin-left: 5px;
     }
 }
   
