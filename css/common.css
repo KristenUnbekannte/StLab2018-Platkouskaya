@@ -10,51 +10,5 @@ body{
     max-width:1920px;
 }
 a{
-    text-decoration:none;
-}
-.page{
-    margin:auto;
-    max-width:1170px;
-}
-
-.page__footer-margin{
-    margin-top:60px;
-    margin-bottom:27px;  
-}
-.button{
-    font-family:"Fjalla One";
-    text-transform: uppercase;
-    color:white;
-    border-radius: 3px;
-    background-color: rgb(226, 79, 67);
-    border:none;
-}
-.button:hover{
-    background-color:rgb(245, 48, 48);
-    -webkit-transform: scale(1.15);
-    -ms-transform: scale(1.15);
-    transform: scale(1.15);
-}
-.text__title{
-    font-family:"Fjalla One";
-    font-size:20px;
-    text-transform: uppercase;
-    color:#5c5c5c;
-    line-height: 2.2;
-    padding-left:1px;
-}
-.text__content{
-    font-family:"Source Sans Pro";
-    font-size:14px;
-    color:#a5a5a5;
-    line-height: 1.75;
-}
-@media screen and (max-width: 767px)
-{
-    .page__footer-margin{
-        margin-top:0;
-    }
-    .text__title{
-        line-height: 1.5;
-    }
+    text-decoration: none;
 }

@@ -12,7 +12,7 @@
     width:570px;
     padding-top:40px;
 }
-.item__circle{
+.item__logo{
     width:124px;
     height:124px;
     border:3px solid #dfdfdf;
@@ -24,7 +24,7 @@
     left:42px;
     top:44px;
 }
-.item__text{
+.item__content{
     padding-left:24px;
     padding-right:15px;
     width:400px;
@@ -35,7 +35,7 @@
         display:flex;
         flex-wrap: wrap;
     }
-    .item__text{
+    .item__content{
         width:50%;
     }
 }

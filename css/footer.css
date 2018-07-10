@@ -6,10 +6,6 @@
     align-items:center;
     flex-wrap: wrap
 }
-.footer__text{
-    padding-right:40px;
-    padding-bottom: 8px;
-}
 .footer__item{
     width:268px;
 }
@@ -17,17 +13,14 @@
     display:flex;
     justify-content:flex-start;
 }
-.footer__text-content{
-    line-height: 1.2;
-}
-.footer__a{
-    color:#a5a5a5;
-    text-decoration: none;
-}
-.footer__a:hover{
+.footer a:hover{
     text-decoration-line: overline;
     text-decoration-style: dashed;
     text-decoration-color:  rgb(226, 79, 67);
+}
+.footer__text{
+    margin-right:40px;
+    margin-bottom: 8px;
 }
 @media screen and (min-width: 768px) and (max-width: 1024px)
 {
