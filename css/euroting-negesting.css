@@ -9,6 +9,7 @@
 .euroting-negesting__text{
     font-family:"Fjalla One";
     text-transform: uppercase;
+    padding-right:10px;
 }
 .euroting-negesting__text-title{
     font-size:30px;
@@ -51,6 +52,5 @@
     .euroting-negesting__button{
         width:186px;;
         font-size:16px;
-        margin-left:10px;
     }
 }

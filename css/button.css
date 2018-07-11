@@ -8,6 +8,7 @@
 }
 .button:hover{
     background-color:rgb(245, 48, 48);
+    cursor: pointer;
     -webkit-transform: scale(1.15);
     -ms-transform: scale(1.15);
     transform: scale(1.15);
