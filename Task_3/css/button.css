@@ -1,0 +1,15 @@
+.button{
+    font-family:"Fjalla One";
+    text-transform: uppercase;
+    color:white;
+    border-radius: 3px;
+    background-color: rgb(226, 79, 67);
+    border:none;
+}
+.button:hover{
+    background-color:rgb(245, 48, 48);
+    cursor: pointer;
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+}

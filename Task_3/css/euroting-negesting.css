@@ -1,0 +1,56 @@
+.euroting-negesting{
+    min-height:176px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid #dfdfdf;
+}
+.euroting-negesting__text{
+    font-family:"Fjalla One";
+    text-transform: uppercase;
+    padding-right:10px;
+}
+.euroting-negesting__text-title{
+    font-size:30px;
+    color:#5c5c5c;
+}
+.euroting-negesting__text-content{
+    line-height: 1.6;
+    font-size:18px;
+    color:#a5a5a5;
+}
+.euroting-negesting__button{
+    width: 230px;
+    height: 54px;
+    font-size:20px;
+    margin-bottom:4px;
+    margin-right:1px;
+    text-align: center;
+}
+.euroting-negesting__button-image{
+    margin-bottom:5px;
+    margin-right:6px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px)
+{
+    .euroting-negesting__text-title{
+        font-size:26px;
+    }
+    .euroting-negesting__text-content{
+        font-size:16px;
+    }
+}
+@media screen and (max-width: 767px)
+{
+    .euroting-negesting__text-title{
+        font-size:20px;
+    }
+    .euroting-negesting__text-content{
+        font-size:14px;
+    }
+    .euroting-negesting__button{
+        width:186px;;
+        font-size:16px;
+    }
+}

@@ -1,0 +1,13 @@
+.logo{
+    font-family:"Fjalla One";
+}
+.logo__title{
+    font-size:30px;
+    text-transform: uppercase;
+    color:#5c5c5c;
+}
+.logo__content{
+    font-size:12px;
+    color:#a5a5a5;
+    line-height: 0.65;
+}
