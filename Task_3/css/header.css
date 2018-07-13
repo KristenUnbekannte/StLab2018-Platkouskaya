@@ -1,0 +1,26 @@
+.header{
+    background-image: url(../images/line.png);
+    background-repeat: no-repeat;
+    min-height:120px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    position: relative;
+}
+.header__menu{
+    margin-right:36px;
+    margin-bottom:21px;
+}
+.header__logo{
+    margin-bottom:6px;
+} 
+@media screen and (max-width: 767px)
+{
+    .header{
+        align-items: flex-start;
+    }
+    .header__logo{
+        margin-top: 10px;
+    }
+}

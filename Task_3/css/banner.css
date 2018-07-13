@@ -1,0 +1,46 @@
+.banner{
+    background-image: url(../images/girl-min.png);
+    background-repeat: no-repeat;
+    background-position-x: 80%;
+    display:flex;
+    align-items:stretch;
+    flex-wrap:wrap; 
+}
+.banner__item{
+    width:50%;
+    height:220px;
+    float:left;
+    position:relative;
+}
+.banner__text-item{
+    font-family:"Fjalla One";
+    font-size:18px;
+    text-transform: uppercase;
+    color:white;
+    position:absolute;
+    bottom:0;
+    left:0;
+    padding:10px 9px 8px 9px;
+}
+.banner__item_lightgray{
+    background-color:rgba(148,148,148,0.02);
+    -webkit-filter: contrast(1);
+    filter: contrast(1);
+}
+.banner__item_gray{
+    background-color:rgba(99,99,99,0.42);
+    -webkit-filter: contrast(4);
+    filter: contrast(4);
+}
+.banner__item_darkgray{
+    background-color:rgba(66,66,66,0.6);
+    -webkit-filter: contrast(2);
+    filter: contrast(2);
+}
+.banner__text-item_black-background{
+    background-color:#000000;
+}
+.banner__text-item_orange-background{
+    background-color:#e24f43;
+}
+  

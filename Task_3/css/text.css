@@ -1,0 +1,26 @@
+.text{
+
+}
+.text__title{
+    font-family:"Fjalla One";
+    font-size:20px;
+    text-transform: uppercase;
+    color:#5c5c5c;
+    line-height: 2.2;
+    padding-left:1px;
+}
+.text__content{
+    font-family:"Source Sans Pro";
+    font-size:14px;
+    color:#a5a5a5;
+    line-height: 1.75;
+}
+.text__content_small-line-height{
+    line-height: 1.2;
+}
+@media screen and (max-width: 767px)
+{
+    .text__title{
+        line-height: 1.5;
+    }
+}
