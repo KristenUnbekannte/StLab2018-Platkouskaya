@@ -1,12 +1,12 @@
-task1_a https://jsbin.com/vizigu/edit?js,console
-task1_á https://jsbin.com/jetahab/edit?js
-task1_â https://jsbin.com/vovawiy/edit?js,console
-task1_ã https://jsbin.com/pimodus/edit?js,console
-task1_ä_1 https://jsbin.com/dotepeq/edit?js,console
-task1_d_2 https://jsbin.com/wetorub/edit?js,console
-task1_e https://jsbin.com/cetoru/edit?js,console
-task1_æ https://jsbin.com/nidajez/edit?js,console
-task1_ç https://jsbin.com/cixogaw/edit?js,console
+task1_1 https://jsbin.com/vizigu/edit?js,console
+task1_2  https://jsbin.com/jetahab/edit?js
+task1_3 https://jsbin.com/vovawiy/edit?js,console
+task1_4 https://jsbin.com/pimodus/edit?js,console
+task1_5_1 https://jsbin.com/dotepeq/edit?js,console
+task1_5_2 https://jsbin.com/wetorub/edit?js,console
+task1_6 https://jsbin.com/cetoru/edit?js,console
+task1_7 https://jsbin.com/nidajez/edit?js,console
+task1_8 https://jsbin.com/cixogaw/edit?js,console
 
 task2 https://jsbin.com/tifituz/edit?js,console
 
