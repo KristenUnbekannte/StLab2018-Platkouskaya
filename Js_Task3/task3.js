@@ -23,12 +23,16 @@ function PrintWelcome() {
         timer_welcome = clearInterval(timer_welcome);
     }
 }
+function Timer(){
+    let number = Math.floor(Math.random() * 4) + 1;
+    timer_seconds = setTimeout(() => {
+        console.log(`${number} seconds`); 
+        Timer();
+    }, number * 1000);
+}
 function PrintSeconds() {
     if (!timer_seconds) {
-        const number = Math.floor(Math.random() * 4) + 1;
-        timer_seconds = setInterval(()=> {
-            console.log(`${number} seconds`);
-        }, number * 1000);
+        Timer();
     }
     else {
         timer_seconds = clearInterval(timer_seconds);
