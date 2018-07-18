@@ -1,37 +1,37 @@
-var timer = null;
-var timer2 = null;
-var timerId = null;
+var timer_welcome = null;
+var timer_seconds = null;
+var timer_text = null;
 
-function Hello() {
+function PrintHello() {
     setTimeout(function () {
         console.log("Hello World");
     }, 5000);
 }
-function Welcome() {
-    if (!timer) {
-        timer = setInterval(function () {
+function PrintWelcome() {
+    if (!timer_welcome) {
+        timer_welcome = setInterval(function () {
             console.log("You are welcome");
         }, 3000);
     }
     else {
-        timer = clearInterval(timer);
+        timer_welcome = clearInterval(timer_welcome);
     }
 }
-function Seconds() {
-    if (!timer2) {
+function PrintSeconds() {
+    if (!timer_seconds) {
         let number = Math.floor(Math.random() * 4) + 1;
         console.log(number + " seconds");
-        timer2 = setInterval(function () {
+        timer_seconds = setInterval(function () {
             console.log("phrase");
         }, number * 1000);
     }
     else {
-        timer2 = clearInterval(timer2);
+        timer_seconds = clearInterval(timer_seconds);
     }
 }
-function Text() {
-    clearTimeout(timerId);
-    timerId = setTimeout(
+function PrintText() {
+    clearTimeout(timer_text);
+    timer_text = setTimeout(
         function () {
             console.log(document.getElementById("text").value);
         }, 1000);

@@ -31,4 +31,4 @@ var newReleases = [{
     "bookmark": [{ id: 432534, time: 65876586 }]
 }];
 
-console.log(newReleases.map(function (x) { return { "id": x.id, "title": x.title };}));
+console.log(newReleases.map(function (x) { return { id: x.id, title: x.title };}));
