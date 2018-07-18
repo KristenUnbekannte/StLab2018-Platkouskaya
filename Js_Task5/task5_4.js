@@ -6,8 +6,7 @@ function doAsync() {
     });
 }
 doAsync().then(function () {
-    throw new Error('nope');
 })
 .catch(function (err) {
-    console.error(err.description);
+    throw new Error('nope');
 });

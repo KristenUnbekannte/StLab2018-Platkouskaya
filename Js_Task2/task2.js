@@ -24,11 +24,24 @@ console.log(add.apply(voltron, [20, 30]));
 // “Voltron can count drinkingbeer”
 console.log(add.bind(voltron)("drinking", "beer"));
 
-// #5 Написанный вами код должен вывести console.log имени которое лежит в this.name пятью разными способами
-function showName() {
-    setTimeout(() => { console.log(this.name); },1000);
+// #5 Написанный вами код должен вывести в консоль "Voltron" внутри setTimeout, 5-ью разными способами
+
+function PrintName(robot)
+{
+    return console.log(robot.name);
 }
-showName();
-showName.call(voltron);
-showName.apply(voltron);
-showName.bind(voltron)();
+let s = PrintName;
+var showName = function () { 
+    let volt = this;
+    setTimeout(()=>{
+        console.log(volt.name);
+        console.log(this.name);
+        console.log(voltron.name);
+        PrintName(this);
+        PrintName(voltron);
+        (()=>{console.log(this.name)})();
+    }, 1000); 
+}.bind(voltron) 
+showName(); 
+
+

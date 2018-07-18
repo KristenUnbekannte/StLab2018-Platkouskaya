@@ -1,6 +1,12 @@
-var timer_welcome = null;
-var timer_seconds = null;
-var timer_text = null;
+let timer_welcome = null;
+let timer_seconds = null;
+let timer_text = null;
+
+document.getElementById("hello").addEventListener("click", PrintHello);
+document.getElementById("welcome").addEventListener("click", PrintWelcome);
+document.getElementById("seconds").addEventListener("click", PrintSeconds);
+document.getElementById("text").addEventListener("keypress", PrintText);
+
 
 function PrintHello() {
     setTimeout(function () {
@@ -19,10 +25,9 @@ function PrintWelcome() {
 }
 function PrintSeconds() {
     if (!timer_seconds) {
-        let number = Math.floor(Math.random() * 4) + 1;
-        console.log(number + " seconds");
-        timer_seconds = setInterval(function () {
-            console.log("phrase");
+        const number = Math.floor(Math.random() * 4) + 1;
+        timer_seconds = setInterval(()=> {
+            console.log(`${number} seconds`);
         }, number * 1000);
     }
     else {

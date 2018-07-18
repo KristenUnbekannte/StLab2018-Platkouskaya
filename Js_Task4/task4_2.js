@@ -3,13 +3,13 @@ new Promise(function (resolve, reject) {
 })
 .then((result) => {
         console.log(result);
-        return result * 2;
+        return result + 2;
 })
 .then((result) => {
         console.log(result);
         return new Promise((resolve, reject) => {
             setTimeout(() => {
-                resolve(result * 2);
+                resolve(result + 2);
             }, 2000);
         });
 })

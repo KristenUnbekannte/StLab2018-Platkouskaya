@@ -12,4 +12,4 @@ new Promise((resolve, reject) => {
 })
 .catch((result => {
         console.error(result);
-}))
+}));

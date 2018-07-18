@@ -21,7 +21,7 @@ var boxarts = [{
 }];
 
 console.log(boxarts.reduce(function (max, item) {
-    let area = item.width * item.height;
-    let maxArea = max == null ? null : max.width * max.height;
+    const area = item.width * item.height;
+    const maxArea = max === null ? null : max.width * max.height;
     return maxArea > area ? max : item;
-    }).url);
+}).url);

@@ -1,6 +1,6 @@
 Array.prototype.map = function (projectionFunction) {
     if (typeof projectionFunction === 'function') {
-        let array = [];
+        const array = [];
         for (let i = 0; i < this.length; i++) {
             array.push(projectionFunction(this[i], i, this));
         }
@@ -11,5 +11,5 @@ Array.prototype.map = function (projectionFunction) {
     }
 };
 
-console.log(JSON.stringify([1, 2, 3].map(function (x) { return x + 1; })) === "[2,3,4]");
-console.log(JSON.stringify([1, 2, 3].map(function (x) { return x + 10; })) === "[11,12,13]");
+console.log(JSON.stringify([1, 2, 3].map((array_item) => { return array_item + 1; })) === "[2,3,4]");
+console.log(JSON.stringify([1, 2, 3].map((array_item) => { return array_item + 10; })) === "[11,12,13]");

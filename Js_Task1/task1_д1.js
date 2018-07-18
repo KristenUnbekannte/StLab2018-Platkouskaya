@@ -60,7 +60,12 @@ var movieLists = [{
             width: 150,
             height: 200,
             url: "http://cdn-0.nflximg.com/images/2891/Fracture150.jpg"
-        }, {
+        }, 
+        {
+            width: 150,
+            height: 200,
+            url: "http://cdn-0.nflximg.com/images/2891/Fracture1501.jpg"
+        },{
             width: 300,
             height: 200,
             url: "http://cdn-0.nflximg.com/images/2891/Fracture300.jpg"
@@ -75,14 +80,15 @@ let videos = [];
 for (let i = 0; i < movieLists.length; i++) {
     videos = videos.concat(movieLists[i].videos);
 }
-videos = videos.map(function (x) {
-    let obj = {
-        id: x.id,
-        title: x.title,
-        boxart: x.boxarts.filter(function (y) { return y.width == 150 && y.height == 200; })
-                         .map(function (z) { return z.url; })
+
+videos = videos.map(function (video) {
+    const [url] = video.boxarts.filter(function (boxart) { return boxart.width == 150 && boxart.height == 200; })
+    .map(function (boxart_filtered) { return boxart_filtered.url; });
+    const obj = {
+        id: video.id,
+        title: video.title,
+        boxart: url
     }
     return obj;
 });
-
 console.log(videos);
