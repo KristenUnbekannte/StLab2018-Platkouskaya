@@ -12,4 +12,4 @@ var video = [{
     "title": "Bad Boys"
 }];
 
-console.log(video.reduce(function (memo, item) { memo[item.id] = item.title; return memo; }, {}));
+console.log(video.reduce((memo, item) => { memo[item.id] = item.title; return memo; }, {}));

@@ -1,8 +1,8 @@
 db.getAllDocs()
-.then(function (result) {
-    return Promise.all(result.rows.forEach(function (row) {
-    return db.remove(row.doc);
-    }));
-}).then(function () {
-    // All docs must be removed!
-});
+    .then((result) => {
+        return Promise.all(result.rows.forEach((row) => {
+            return db.remove(row.doc);
+        }));
+    }).then(() => {
+        // All docs must be removed!
+    });

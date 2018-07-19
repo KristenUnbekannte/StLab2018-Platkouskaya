@@ -1,6 +1,6 @@
 function anAsyncCall() {
     var promise = doSomethingAsync();
-    return promise.then(function() {
+    return promise.then(() => {
     somethingComplicated();
     });
 }

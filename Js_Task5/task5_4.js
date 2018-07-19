@@ -5,8 +5,8 @@ function doAsync() {
         }, 1000);
     });
 }
-doAsync().then(function () {
+doAsync().then(() => {
 })
-.catch(function (err) {
-    throw new Error('nope');
-});
+    .catch((err) => {
+        throw new Error('nope');
+    });

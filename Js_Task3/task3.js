@@ -9,13 +9,13 @@ document.getElementById("text").addEventListener("keypress", PrintText);
 
 
 function PrintHello() {
-    setTimeout(function () {
+    setTimeout(() => {
         console.log("Hello World");
     }, 5000);
 }
 function PrintWelcome() {
     if (!timer_welcome) {
-        timer_welcome = setInterval(function () {
+        timer_welcome = setInterval(() => {
             console.log("You are welcome");
         }, 3000);
     }
@@ -23,10 +23,10 @@ function PrintWelcome() {
         timer_welcome = clearInterval(timer_welcome);
     }
 }
-function Timer(){
+function Timer() {
     let number = Math.floor(Math.random() * 4) + 1;
     timer_seconds = setTimeout(() => {
-        console.log(`${number} seconds`); 
+        console.log(`${number} seconds`);
         Timer();
     }, number * 1000);
 }
@@ -40,8 +40,7 @@ function PrintSeconds() {
 }
 function PrintText() {
     clearTimeout(timer_text);
-    timer_text = setTimeout(
-        function () {
-            console.log(document.getElementById("text").value);
-        }, 1000);
+    timer_text = setTimeout(() => {
+        console.log(document.getElementById("text").value);
+    }, 1000);
 }

@@ -1,4 +1,4 @@
 Promise.all([loadVideosAsync(), loadMetaAsync()])
-    .then(function (videos, meta) {
+    .then((videos, meta) => {
         DoSomething(videos, meta);
     });
