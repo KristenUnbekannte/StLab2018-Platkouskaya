@@ -31,4 +31,5 @@ var newReleases = [{
     "bookmark": [{ id: 432534, time: 65876586 }]
 }];
 
-console.log(newReleases.filter((arr_item) => { let [rating] = arr_item.ration; return rating === 5; }).map((item_filtered) => { return item_filtered.id; }));
+console.log(newReleases.filter((arr_item) => { let [rating] = arr_item.ration; return rating === 5; })
+                        .map((item_filtered) => { return item_filtered.id; }));
